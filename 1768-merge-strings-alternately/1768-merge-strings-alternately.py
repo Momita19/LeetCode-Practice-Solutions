@@ -1,7 +1,7 @@
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
 
-        return ''.join(i+j for i,j in itertools.zip_longest(word1, word2, fillvalue=''))
+        return ''.join(i+j for i,j in zip_longest(word1, word2, fillvalue=''))
     
     
     
