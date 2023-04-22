@@ -1,9 +1,8 @@
-class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
-        nums.sort()
-        for i in range (0, len(nums)-1):
-            if nums[i]==nums[i+1]:
-                return True
-            
-        return False
+class Solution(object):
+    def containsDuplicate(self, nums):
+        return len(set(nums)) != len(nums)
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
         
