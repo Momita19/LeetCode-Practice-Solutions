@@ -3,13 +3,13 @@ class Solution:
         d=0
         while num > 0:
             d += num%10
-            print(d)
+            # print(d)
             num = num//10
             
-            print(num)
+            # print(num)
             if d > 9 and num == 0:
                 num = d
-                print(num)
+                # print(num)
                 d=0
             
                 
