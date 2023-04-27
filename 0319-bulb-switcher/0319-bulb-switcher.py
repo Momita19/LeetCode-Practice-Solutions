@@ -1,5 +1,6 @@
 class Solution:
-    bulbSwitch = isqrt
+    def bulbSwitch(self, n: int) -> int:
+        return isqrt(n)
 
         
 #         Test cases
