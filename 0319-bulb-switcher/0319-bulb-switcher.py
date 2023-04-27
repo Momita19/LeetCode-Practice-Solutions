@@ -29,13 +29,6 @@ class Solution:
 #  if sqaures root 4,9,16,36 in between these it will return the square root of no till another higher square root
 #  till 4 the ans will be 1, after this ans will be 2 till 9 then 3 till 16 and so on
 
-# root_list = []
-#         i = 1
-#         while i**2 <= n:
-#             root_list.append(math.sqrt(i))
-#             i += 1
-            
-#         return root_list
             
 
           
