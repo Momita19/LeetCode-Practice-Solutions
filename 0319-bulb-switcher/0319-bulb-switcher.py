@@ -1,7 +1,6 @@
-import math
 class Solution:
     def bulbSwitch(self, n: int) -> int:
-        return int(math.sqrt(n))
+        return int(n ** 0.5)
 
         
 #         Test cases
