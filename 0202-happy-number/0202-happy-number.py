@@ -11,9 +11,7 @@ class Solution:
                 print(i)
             if result == 1:
                 return True
-            
-            
-                
+               
             n = result
             print(n)
             
